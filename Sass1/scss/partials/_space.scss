@@ -1,0 +1,62 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  div {
+    margin: 70px 150px;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    margin-right: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+    &:hover {
+      color: black;
+    }
+  }
+  .logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.4rem;
+  }
+}
+.firstContainer {
+  display: flex;
+  margin: 20px 70px;
+  justify-content: space-between;
+  .title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-right: 40px;
+  }
+  p {
+    margin-top: 20px;
+  }
+  img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1px;
+    position: relative;
+    top: 100px;
+  }
+}
+footer {
+  margin-top: 50px;
+  .containerLaptop4 {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+  }
+  img {
+    border-radius: 20px;
+  }
+}

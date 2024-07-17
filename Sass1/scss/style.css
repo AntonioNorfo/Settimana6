@@ -1,0 +1,257 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header div {
+  margin: 70px 150px;
+}
+header ul {
+  display: flex;
+}
+header li {
+  margin-right: 20px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s;
+}
+header a:hover {
+  color: black;
+}
+header .logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.firstContainer {
+  display: flex;
+  margin: 20px 70px;
+  justify-content: space-between;
+}
+.firstContainer .title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-right: 40px;
+}
+.firstContainer p {
+  margin-top: 20px;
+}
+.firstContainer img {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 1px;
+  position: relative;
+  top: 100px;
+}
+
+footer {
+  margin-top: 50px;
+}
+footer .containerLaptop4 {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+footer img {
+  border-radius: 20px;
+}
+
+body {
+  background-color: #640fc5;
+}
+
+.title h1 {
+  font-weight: bold;
+  font-size: 5rem;
+  color: #28064f;
+}
+.title .secP {
+  color: white;
+}
+
+.btn button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+.btn button:nth-child(1) {
+  background-color: #007bff;
+}
+.btn button:nth-child(2) {
+  background-color: #ffa500;
+}
+.btn button:nth-child(3) {
+  background-color: #28a745;
+}
+.btn button:hover {
+  transform: scale(1.1);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.slide-up {
+  animation: slideUp 1s ease-out forwards;
+}
+
+@keyframes slideUp2 {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.slide-up2 {
+  animation: slideUp 2s ease-out forwards;
+}/*# sourceMappingURL=style.css.map */
