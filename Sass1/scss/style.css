@@ -158,7 +158,7 @@ header .logo {
 
 .firstContainer {
   display: flex;
-  margin: 20px 70px;
+  margin: 30px 120px;
   justify-content: space-between;
 }
 .firstContainer .title {
