@@ -170,4 +170,8 @@ table {
 .sizeImg1 {
   width: 60px;
   border-radius: 30px;
+}
+
+.card-title {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
