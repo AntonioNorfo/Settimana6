@@ -1,0 +1,17 @@
+.btn {
+  padding: 18px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+
+  &:nth-child(1) {
+    background-color: #1acb98;
+    color: white;
+  }
+
+  &:nth-child(2) {
+    background-color: white;
+    color: black;
+  }
+  cursor: pointer;
+}
